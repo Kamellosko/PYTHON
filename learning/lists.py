@@ -6,10 +6,10 @@ friends.insert(1, "Tede")
 friends.remove("Dawidek")
 
 print(friends)
-
 print("\n")
 
-###not working print(friends.index("Dawidek"))
+print(friends.index("Grubasek"))
+print("\n")
 
 friends[0] = "Benis"
 print(friends[0])
