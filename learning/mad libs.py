@@ -1,0 +1,6 @@
+color = input("Enter a color: ")
+noun = input("Enter a plural noun: ")
+who = input("Enter a person: ")
+print("Roses are " +color )
+print( noun+" are blue")
+print("i love "+who)
