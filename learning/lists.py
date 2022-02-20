@@ -9,7 +9,7 @@ print(friends)
 
 print("\n")
 
-print(friends.index("Dawidek"))
+###not working print(friends.index("Dawidek"))
 
 friends[0] = "Benis"
 print(friends[0])
