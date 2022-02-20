@@ -5,7 +5,7 @@ wybor = input("kamien papier nozyce: ")
 if wybor == "kamien":
     komputer=["kamien","papier","nozyce"]
     wybor_komp = random.choice(komputer)
-    print("Wybrales " + wybor + "\nKomputer wybrał: " + wybor_komp)
+    print("Wybrales: " + wybor + "\nKomputer wybrał: " + wybor_komp)
 elif wybor == "papier":
     komputer=["kamien","papier","nozyce"]
     wybor_komp = random.choice(komputer)
