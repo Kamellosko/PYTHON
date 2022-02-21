@@ -1,15 +1,19 @@
 import random
-def wyswietlanie():
+
+
+wybor = input("kamien papier nozyce: ")
+if wybor == "kamien":
     komputer=["kamien","papier","nozyce"]
     wybor_komp = random.choice(komputer)
     print("Wybrales: " + wybor + "\nKomputer wybrał: " + wybor_komp)
-wybor = input("kamien papier nozyce: ")
-if wybor == "kamien":
-    wyswietlanie()
 elif wybor == "papier":
-    wyswietlanie();
+    komputer=["kamien","papier","nozyce"]
+    wybor_komp = random.choice(komputer)
+    print("Wybrales " + wybor + "\nKomputer wybrał: " + wybor_komp)
 elif wybor == "nozyce":
-     wyswietlanie();
+    komputer=["kamien","papier","nozyce"]
+    wybor_komp = random.choice(komputer)
+    print("Wybrales " + wybor + "\nKomputer wybrał: " + wybor_komp)
 else:
     print("Wpisz jeszcze raz")
 if wybor==wybor_komp:
@@ -26,7 +30,7 @@ elif wybor=="papier":
         print("Nożyce tną papier, przegrywasz!")
 elif wybor=="nozyce":
     if wybor_komp =="papier":
-     print("Nozyce tna papier, wygrywasz!")
+     print("Nozyce tna papier, wygyrwasz!")
     else:
         print("Kamien miazdzy nozyce, przegrywasz!")
 
