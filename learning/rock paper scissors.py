@@ -26,7 +26,7 @@ elif wybor=="papier":
         print("Nożyce tną papier, przegrywasz!")
 elif wybor=="nozyce":
     if wybor_komp =="papier":
-     print("Nozyce tna papier, wygyrwasz!")
+     print("Nozyce tna papier, wygrywasz!")
     else:
         print("Kamien miazdzy nozyce, przegrywasz!")
 
